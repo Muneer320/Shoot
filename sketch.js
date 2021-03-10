@@ -26,15 +26,15 @@ function draw() {
     car.velocityX = 0;
 
     if (deformation < 100) {
-      car.shapeColor = rgb(0, 255, 0);
+      wall.shapeColor = rgb(0, 255, 0);
     }
 
     if (deformation > 100 && deformation < 180) {
-      car.shapeColor = rgb(230, 230, 0);
+      wall.shapeColor = rgb(230, 230, 0);
     }
 
     if (deformation > 180) {
-      car.shapeColor = rgb(255, 0, 0);
+      wall.shapeColor = rgb(255, 0, 0);
     }
 
   }
